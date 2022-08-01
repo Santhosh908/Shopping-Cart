@@ -16,7 +16,6 @@ const ProductList = ({ products }) => {
         </div>
     );
 }
-
 ProductList.propTypes = {
     products: PropTypes.array,
 }

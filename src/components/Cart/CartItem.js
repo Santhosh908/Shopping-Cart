@@ -12,7 +12,6 @@ const CartItem = ({ name, price, currency, onClick }) => {
         </div>
     );
 }
-
 CartItem.propTypes = {
     name: PropTypes.string.isRequired,
     price: PropTypes.number.isRequired,

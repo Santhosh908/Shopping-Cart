@@ -11,10 +11,8 @@ class Product extends Component {
             addToCart(id);
         }
     }
-
     render() {
-        const { name, price, currency, image, isInCart } = this.props;
-
+        const { name, price, currency, image, isInCart } = this.props
         return (
             <div className="product thumbnail">
                 <img src={image} alt="product" />

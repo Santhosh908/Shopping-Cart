@@ -8,6 +8,7 @@ import App from './App';
 import productsData from './data/products';
 import 'bootstrap/dist/css/bootstrap.css';
 
+
 const rootReducer = combineReducers({
     cart: cartReducer,
     products: productsReducer

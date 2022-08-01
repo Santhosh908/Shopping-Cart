@@ -9,9 +9,7 @@ const mapStateToProps = (state, props) => {
         total: getTotal(state, props)
     }
 }
-
 const mapDispatchToProps = (dispatch) => ({
     removeFromCart: (id) => dispatch(removeFromCart(id))
 })
-
 export default connect(mapStateToProps, mapDispatchToProps)(Cart);

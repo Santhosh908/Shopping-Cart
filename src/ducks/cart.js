@@ -1,14 +1,13 @@
 import { getProduct } from '../ducks/products';
 
-// actions
 const CART_ADD   = 'cart/ADD';
 const CART_REMOVE = 'cart/REMOVE';
 
-// reducer
 const initialState = {
-    items: [], // array of product ids
+    items: [], 
     currency: 'EUR'
 };
+
 
 export default function cart(state = initialState, action = {}) {
     switch (action.type) {

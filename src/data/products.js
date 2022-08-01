@@ -6,6 +6,7 @@ const data = [
     currency: 'RS',
     image: 'images/01.jpg',
   },
+  
   {
     id: 2,
     name: 'Samsung 192Litres(Stabilizer Free)',

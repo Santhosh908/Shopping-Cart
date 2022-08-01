@@ -7,5 +7,4 @@ const mapStateToProps = (state, props) => {
         products: getProducts(state, props)
     }
 }
-
 export default connect(mapStateToProps)(ProductList);

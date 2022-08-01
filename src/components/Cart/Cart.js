@@ -5,8 +5,7 @@ import CartItem from './CartItem';
 const Cart = ({ items, total, currency, removeFromCart }) => {
     return (
         <div>
-            <h3>Shopping Cart</h3>
-
+            <h3>Shopping-Cart</h3>
             <div className="cart">
                 <div className="panel panel-default">
                     <div className="panel-body">
