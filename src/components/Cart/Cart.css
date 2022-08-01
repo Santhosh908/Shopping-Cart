@@ -1,15 +1,20 @@
-.cart__body {
+.cartbody {
   margin-bottom: 0.7em;
+  background-color: azure;
 }
-
+.alert alert-info{
+  text-shadow: yellowgreen;
+  font-weight: bolder;
+}
 .cart-item {
   margin-bottom: 0.3em;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background-color: aliceblue;
 }
 
-.cart-item__name {
+.cartttitemname {
   margin-left: 0.5em;
   vertical-align: middle;
 }
@@ -18,7 +23,7 @@
   font-weight: bold;
 }
 
-.cart__total {
+.carttotal {
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.1em;

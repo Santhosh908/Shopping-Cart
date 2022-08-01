@@ -6,9 +6,9 @@ const CartItem = ({ name, price, currency, onClick }) => {
         <div className="cart-item">
             <div>
                 <button className="btn btn-danger btn-xs" onClick={onClick}>X</button>
-                <span className="cart-item__name">{name}</span>
+                <span className="cartttitemname">{name}</span>
             </div>
-            <div className="cart-item__price">{price} {currency}</div>
+            <div className="cart-item__price">{price}Rs</div>
         </div>
     );
 }
